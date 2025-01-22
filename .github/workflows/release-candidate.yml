@@ -12,5 +12,6 @@ jobs:
       create-tag: true
       test-enabled: true
       style-check-enabled: false
+      pythonVersion: '3.9'
     secrets:
       pypi-password: ${{ secrets.PYPI_PASSWORD }}
