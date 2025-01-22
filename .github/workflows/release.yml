@@ -8,8 +8,10 @@ jobs:
     uses: th2-net/.github/.github/workflows/compound-python.yml@main
     with:
       release-type: release
-      python-check-versions: "['3.8', '3.9', '3.10', '3.11', '3.12']"
+      python-check-versions: "['3.9', '3.10', '3.11', '3.12']"
       create-tag: true
+      test-enabled: true
       style-check-enabled: false
+      pythonVersion: '3.9'
     secrets:
       pypi-password: ${{ secrets.PYPI_PASSWORD }}

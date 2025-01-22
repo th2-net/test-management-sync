@@ -1,4 +1,5 @@
 [project]
+name = "test-management-sync"
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
@@ -10,7 +11,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 authors = [
   { name = "developer", email = "developer@exactpro.com" },
 ]
@@ -24,7 +25,7 @@ license = "Apache-2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.9"
 requests = "*"
 dataclasses-json = "*"
 
