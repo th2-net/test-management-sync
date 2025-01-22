@@ -1,4 +1,5 @@
 [project]
+name = "test-management-sync"
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
