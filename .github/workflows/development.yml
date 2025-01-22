@@ -14,7 +14,7 @@ jobs:
     uses: th2-net/.github/.github/workflows/compound-python.yml@main
     with:
       release-type: development
-      python-check-versions: "['3.8', '3.9', '3.10', '3.11', '3.12']"
+      python-check-versions: "['3.9', '3.10', '3.11', '3.12']"
       test-enabled: true
       style-check-enabled: false
 
