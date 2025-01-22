@@ -17,6 +17,7 @@ jobs:
       python-check-versions: "['3.9', '3.10', '3.11', '3.12']"
       test-enabled: true
       style-check-enabled: false
+      create-tag: false
 
     secrets:
       pypi-password: ${{ secrets.PYPI_PASSWORD }}

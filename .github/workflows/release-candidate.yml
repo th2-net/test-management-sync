@@ -10,6 +10,7 @@ jobs:
       release-type: release-candidate
       python-check-versions: "['3.9', '3.10', '3.11', '3.12']"
       create-tag: true
+      test-enabled: true
       style-check-enabled: false
     secrets:
       pypi-password: ${{ secrets.PYPI_PASSWORD }}
