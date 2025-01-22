@@ -11,7 +11,7 @@ on:
 jobs:
   build-job:
     name: Check and publish snapshot tarball to PyPi
-    uses: th2-net/.github/.github/workflows/compound-python.yml@main
+    uses: th2-net/.github/.github/workflows/compound-python.yml@python-pass-version-to-publish-workflow
     with:
       release-type: development
       python-check-versions: "['3.9', '3.10', '3.11', '3.12']"
